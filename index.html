@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальный сайт рок-фестиваля — афиша, билеты и новости крупнейшего музыкального события года. Погрузитесь в атмосферу живого рока, драйва и незабываемых концертов!" >
+    <title>Звуки свободы</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="website icon" type="png" href="assets/img/логотип.png">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container-fluid justify-between">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/логотип.png" alt="Logo" width="60" height="60"class="d-inline-block align-text-center">
+                    Звуки Свободы
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#on">О нас</a>
+                        <a class="nav-link" href="#artist">Артисты</a>
+                        <a class="nav-link" href="#rules">Правила</a>
+                        <a class="nav-link" href="#price">Прайс</a>
+                        <a class="nav-link" href="#otz">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Слайдер -->
+    <div class="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <div class="slides">
+            <div class="slide slide1" style="background-image: url('assets/img/slider1.jpg');"></div>
+            <div class="slide slide2" style="background-image: url('assets/img/slider2.jpg');"></div>
+            <div class="slide slide3" style="background-image: url('assets/img/slider3.jpg');"></div>
+        </div>
+        <div class="slide-content">
+            <div class="slide-text"> <h1>Рок фестиваль<br>"Звуки свободы"</h1></div>
+            <a href="#price" class="slide-button">Купить билет</a>
+        </div>
+        <div class="slider-nav">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+        </div>
+    </div>
+
+    <!-- О нас -->
+    <section id="on" class="about-section">
+        <div class="container">
+            <h2 class="section-title">О Нас</h2>
+            <div class="about-content">
+                <div class="col-md-6 col-12 about-text">
+                    <p>В сердце города Архангельск, в Петровском парке 15 мая, развернется самый ожидаемый рок-фестиваль этого лета — "Звуки свободы". Он объединил рок-энтузиастов всех возрастов и направлений, даря им возможность погрузиться в мир живой музыки, свободы самовыражения и единства. В этом году выступят как известные рок-группы, так и молодые таланты, которые уже завоевали публику своими неповторимыми стилями. Каждый день будет насыщен выступлениями, мастер-классами и интерактивными шоу.</p>
+                </div>
+                <div class="col-md-6 col-12 about-image">
+                    <img src="assets/img/about.jpg" alt="Фото студии">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок артистов -->
+    <section id="artist" class="artists-section">
+        <div class="container">
+            <h2 class="section-title">Наши артисты</h2>
+            <div class="artist-card">
+                <div class="artist-image">
+                    <img src="assets/img/artist1.jpg" alt="Группа 3">
+                </div>
+                <div class="artist-info">
+                    <h3 class="artist-name">1. Группа "СПЛИН"</h3>
+                    <p class="artist-description">Сплин — одна из самых влиятельных рок-групп России. Их музыка сочетает в себе элементы арт-рока. Лирика группы пронизана философскими размышлениями и глубокими эмоциями.</p>
+                    <a href="https://splean.ru/" class="artist-btn">Перейти на сайт</a>
+                </div>
+            </div>
+            <div class="artist-card">
+                <div class="artist-image">
+                    <img src="assets/img/artist2.jpg" alt="Группа 2">
+                </div>
+                <div class="artist-info">
+                    <h3 class="artist-name">2. Группа "Ленинград"</h3>
+                    <p class="artist-description">Ленинград — культовая группа, основанная в 1997 году в Санкт-Петербурге. Их уникальный стиль сочетает в себе ска, панк и рок-музыку. Ленинград известен своими энергичными выступлениями и песнями.</p>
+                    <a href="https://leningrad.top/" class="artist-btn">Перейти на сайт</a>
+                </div>
+            </div>
+            <div class="artist-card">
+                <div class="artist-image">
+                    <img src="assets/img/artist3.jpg" alt="Группа 3">
+                </div>
+                <div class="artist-info">
+                    <h3 class="artist-name">3. Группа "Свободный ветер"</h3>
+                    <p class="artist-description">"Свободный ветер" — одна из самых ярких рок-групп страны. Их музыка сочетает в себе элементы панка. Участники группы активно выступают за свободу слова.</p>
+                    <a href="https://www.last.fm/ru/tag/rock/artists" class="artist-btn">Перейти на сайт</a>
+                </div>
+            </div>
+            <div class="text-block">
+              <p>Также Мы пригласили множество малоизвестных, но перспективных исполнителей, которых вы сможете услышать первыми! Открывайте для себя новые имена.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок "Правила" -->
+    <section class="prem container" id="rules">
+        <h2>Правила посещения</h2>
+        <div class="premimg">
+            <div class="premm">
+              <img src="assets/img/Рок.svg">
+              <p>Уважайте выступающих</p>
+            </div>
+            <div class="premm">
+              <img src="assets/img/Облачко.svg">
+              <p>Одевайтесь по погоде</p>
+            </div>
+            <div class="premm">
+              <img src="assets/img/гитара.svg">
+              <p>Соблюдайте порядок</p>
+            </div>
+            <div class="premm">
+              <img src="assets/img/метелка.svg">
+              <p>Поддерживайте чистоту</p>
+            </div>
+            <div class="premm">
+              <img src="assets/img/смайл.svg" height="20px">
+              <p>Уважайте других посетителей</p>
+              </div>
+        </div>
+      </section>
+
+      <!--Блок с корзиной -->
+    <section class="container" id="price">
+      <h2 class="text-left art">Цены на билеты</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+     <!-- Обычный билет -->
+        <div class="col">
+          <div class="card h-100 d-flex flex-column">
+            <img src="assets/img/ticket1.jpg" class="card-img-top img-fluid" alt="Обычный билет"/>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Обычный билет</h5>
+              <p class="card-text">Доступ к фестивалю, общая зона, базовая зона фуд-корта.</p>
+              <div class="mt-auto">
+                <p class="fw-bold">Цена: 2000 ₽</p>
+                <button class="btn btn-primary add-to-cart" data-name="Обычный билет" data-price="2000" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart">
+          Добавить в корзину
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Фан билет -->
+      <div class="col">
+        <div class="card h-100 d-flex flex-column">
+          <img src="assets/img/ticket2.jpg" class="card-img-top img-fluid" alt="Фан билет"/>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Фан билет</h5>
+            <p class="card-text">Близко сцене, отдельная фан-зона, большой фуд-корт.</p>
+            <div class="mt-auto">
+              <p class="fw-bold">Цена: 3500 ₽</p>
+              <button class="btn btn-primary add-to-cart" data-name="Фан билет" data-price="3500" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart">
+              Добавить в корзину
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- VIP билет -->
+      <div class="col">
+        <div class="card h-100 d-flex flex-column">
+          <img src="assets/img/ticket3.jpg" class="card-img-top img-fluid" alt="VIP билет"/>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">VIP билет</h5>
+            <p class="card-text">Прямой вид на сцену, лаунж-зона, напитки, отдельный вход.</p>
+            <div class="mt-auto">
+              <p class="fw-bold">Цена: 7000 ₽</p>
+              <button class="btn btn-primary add-to-cart " data-name="VIP билет" data-price="7000" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart">
+              Добавить в корзину
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!--  Корзина -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasCartLabel">Корзина</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="cart-list"></div>
+            <button class="btn btn-success mt-3">Перейти к оплате</button>
+          </div>
+        </div>
+
+        <!-- Отзывы -->
+    <div class="container">
+      <h2 id="otz">Отзывы</h2>
+      <div class="reviews-container" id="reviews-container">
+        <div class="review">
+          <button class="delete-btn" title="Удалить отзыв">&times;</button>
+          <img src="assets/img/reviews1.jpg" alt="Фото пользователя" />
+          <div class="name">Анна Смирнова</div>
+            <div class="description">Я только что вернулась с рок фестиваля, и это было нечто невероятное! Атмосфера была просто потрясающая,</div>
+          </div>
+        <div class="review">
+          <button class="delete-btn" title="Удалить отзыв">&times;</button>
+          <img src="assets/img/reviews2.jpg" alt="Фото пользователя" />
+          <div class="name">Дмитрий Ковалев</div>
+            <div class="description">Звучание было на высоте, а зрители просто взорвали площадку. Немного не понравилась организационная часть — очереди за напитками </div>
+          </div>
+          <div class="review">
+            <button class="delete-btn" title="Удалить отзыв">&times;</button>
+            <img src="assets/img/reviews3.jpg" alt="Фото пользователя" />
+            <div class="name">Светлана Петрова</div>
+              <div class="description">Это был мой первый рок фестиваль, и я в полном восторге! дружелюбная атмосфера — все это сделало мой день незабываемым.</div>
+            </div>
+          </div>
+          <button id="add-review">Добавить новый отзыв</button>
+        
+          <!-- Модальное окно -->
+          <div class="modal" id="modal">
+            <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+              <button class="modal-close" id="modalClose" aria-label="Закрыть">&times;</button>
+              <h2 id="modalTitle">Добавить новый отзыв</h2>
+              <form id="reviewForm" novalidate>
+                <label for="nameInput">Имя <span style="color: red;">*</span></label>
+                <input type="text" id="nameInput" name="name" required minlength="2" placeholder="Ваше имя" />
+                <label for="descriptionInput">Отзыв <span style="color: red;">*</span></label>
+                <textarea id="descriptionInput" name="description" required minlength="5" placeholder="Ваш отзыв"></textarea>
+                <label for="photoInput">Фото </label>
+                <input type="file" id="photoInput" name="photo" accept="image/*" />
+                <div class="checkbox-container">
+                  <input type="checkbox" id="privacyCheckbox" name="privacy" required />
+                  <label for="privacyCheckbox">Я согласен(на) на обработку персональных данных <span style="color: red;">*</span></label>
+                </div>
+                <button type="submit" id="submitBtn" disabled>Отправить</button>
+              </form>
+            </div>
+          </div>
+         </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-fluid footer-top">
+            <a class="footer-brand" href="#">Звуки Свободы</a>
+            <nav class="footer-nav">
+                <a class="nav-link" href="#on">О нас</a>
+                <a class="nav-link" href="#artist">Артисты</a>
+                <a class="nav-link" href="#rules">Правила</a>
+                <a class="nav-link" href="#price">Прайс</a>
+                <a class="nav-link" href="#otz">Отзывы</a>
+            </nav>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-icons">
+                    <a href="https://ok.ru/" ><img src="assets/img/одноклассники.svg" alt="Facebook" width="30" height="30"></a>
+                    <a href="https://vk.com/" ><img src="assets/img/вконтакте.svg" alt="Instagram" width="30" height="30"></a>
+                    <a href="https://web.telegram.org/" ><img src="assets/img/телеграмм.svg" alt="Twitter" width="30" height="30"></a>
+            </div>
+            <div class="footer-text">
+                <p>© 2025 Звуки Свободы. Все права защищены.</p>
+                <p>г. архангельск</p>
+                <p>петровский парк</p>
+                <p>8(953)935-87-33</p>
+            </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
+</body>
+</html>
